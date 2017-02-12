@@ -1,8 +1,8 @@
 # Mixer Webpack Plugin
 
 [![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/mixer-webpack-plugin)
-[![node](https://img.shields.io/node/v/gh-badges.svg)]()
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+[![node](https://img.shields.io/node/v/gh-badges.svg)](https://nodejs.org/)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
 ## Installation
 
