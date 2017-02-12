@@ -1,5 +1,5 @@
 # Mixer Webpack Plugin
-======================
+
 [![npm][npm]][npm-url]
 [![node][node]][node-url]
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
@@ -21,8 +21,8 @@ export default {
     // ...
     plugins: [
         MixerPlugin(
-			new HtmlPlugin({ /* options */ }), 			// target
-			new ExtractTextPlugin({ /* options */ }),	// mixin
+			new HtmlPlugin({ /* options */ }), // target
+			new ExtractTextPlugin({ /* options */ }), // mixin
 			// other mixins...
 		),
         // ...
