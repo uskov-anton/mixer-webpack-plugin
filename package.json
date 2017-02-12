@@ -2,8 +2,11 @@
     "name": "mixer-webpack-plugin",
     "version": "0.1.0",
     "description": "",
-    "main": "index.js",
+    "main": "lib/index.js",
     "scripts": {
+        "build": "mkdirp lib && babel src/index.js --out-file lib/index.js",
+        "rebuild": "npm run clean && npm run build",
+        "clean": "rimraf lib",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -23,5 +26,11 @@
     "bugs": {
         "url": "https://github.com/uskov-anton/mixer-webpack-plugin/issues"
     },
-    "homepage": "https://github.com/uskov-anton/mixer-webpack-plugin#readme"
+    "homepage": "https://github.com/uskov-anton/mixer-webpack-plugin#readme",
+    "devDependencies": {
+        "babel-cli": "^6.22.2",
+        "babel-preset-es2015": "^6.22.0",
+        "mkdirp": "^0.5.1",
+        "rimraf": "^2.5.4"
+    }
 }
