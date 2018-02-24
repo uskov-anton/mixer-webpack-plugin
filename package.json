@@ -1,7 +1,7 @@
 {
   "name": "mixer-webpack-plugin",
-  "version": "0.1.2",
-  "description": "",
+  "version": "0.1.3",
+  "description": "mixer for webpack plugins",
   "main": "lib/index.js",
   "scripts": {
     "build": "mkdirp lib && babel src/index.js --out-file lib/index.js",
