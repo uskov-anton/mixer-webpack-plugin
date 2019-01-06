@@ -32,6 +32,9 @@ export default {
 
 [Full example](https://github.com/uskov-anton/mixer-webpack-plugin-example)
 
+## Limitations
+- Webpack 2
+
 ## License
 
 This project is licensed under [MIT](LICENSE).
